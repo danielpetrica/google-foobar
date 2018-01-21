@@ -1,7 +1,7 @@
 def answer(n):
     numList = ""
     num = 2
-    while numList.__len__() <= n + 5:
+    while numList.__len__() <= n + 5:  # don't generate a huge 10000 character string from prime numbers each time, you need less.
         if is_prime(num):
             numList += num.__str__()
             #print(num)
