@@ -26,4 +26,4 @@ def is_prime(n):
     return True
 
 
-print(answer(0))
+print(answer(0)) # aded for debug, you can change 0 with any number
